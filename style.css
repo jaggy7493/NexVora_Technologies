@@ -154,3 +154,34 @@ a{text-decoration:none;color:inherit}
   transform:translateY(-4px);
   background:#22d3ee;
 }
+
+
+/* Website logo image and real social media icons */
+.site-logo{
+  height:70px;
+  width:auto;
+  max-width:240px;
+  object-fit:contain;
+  display:block;
+}
+.socials a{
+  background:#ffffff !important;
+  border:1px solid rgba(255,255,255,.25);
+  box-shadow:0 8px 18px rgba(0,0,0,.18);
+  overflow:hidden;
+}
+.socials a img{
+  width:24px;
+  height:24px;
+  display:block;
+}
+.socials a:hover{
+  background:#eef6ff !important;
+  transform:translateY(-4px);
+}
+@media(max-width:900px){
+  .site-logo{
+    height:56px;
+    max-width:190px;
+  }
+}
